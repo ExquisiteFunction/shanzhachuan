@@ -288,7 +288,7 @@ class Game():
     def solveK(self, k):
         # return self.solveK_v1(k)
         a = time()
-        ret2 = self.solveK_v1(k)
+        ret2 = self.solveK_v2(k)
         b = time()
         print("total time: ", b-a)
 
